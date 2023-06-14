@@ -1,0 +1,17 @@
+{
+  "name": "prism1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mock": "prism mock ./openapi.yaml",
+    "petstore": "prism mock https://raw.githack.com/OAI/OpenAPI-Specification/master/examples/v3.0/petstore-expanded.yaml"
+  },
+  "keywords": [],
+  "author": "heiwa4126",
+  "license": "ISC",
+  "devDependencies": {
+    "@stoplight/prism-cli": "^5.0.1"
+  }
+}
