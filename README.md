@@ -36,6 +36,7 @@ pnpm i -D @stoplight/prism-cli
 Node.jsのプロジェクトなので、`git clone`したら最初に1回
 
 ```bash
+pnpm audit
 pnpm i
 ```
 
@@ -70,3 +71,12 @@ CORSはどうなってるか調べる。
 ## 参考
 
 - [Swagger Editor](https://editor.swagger.io/)
+
+## 脆弱性
+
+[postman-collection](https://github.com/postmanlabs/postman-collection)
+が脆弱性のある `lodash@4.17.21` を使ってて、
+しょうがないので package.json でオーバーライドしている。
+
+Issues はあがってる。
+[fix: lodash CVE-2025-13465 · Issue #1420 · postmanlabs/postman-collection](https://github.com/postmanlabs/postman-collection/issues/1420)
