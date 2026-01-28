@@ -12,6 +12,6 @@
   "author": "heiwa4126",
   "license": "ISC",
   "devDependencies": {
-    "@stoplight/prism-cli": "^5.0.1"
+    "@stoplight/prism-cli": "^5.14.2"
   }
 }
