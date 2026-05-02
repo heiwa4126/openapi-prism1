@@ -16,7 +16,7 @@
 		"petstore": "prism mock https://raw.githack.com/OAI/OpenAPI-Specification/master/examples/v3.0/petstore-expanded.yaml"
 	},
 	"devDependencies": {
-		"@stoplight/prism-cli": "^5.14.2"
+		"@stoplight/prism-cli": "^5.15.10"
 	},
 	"pnpm": {
 		"overrides": {
