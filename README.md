@@ -17,7 +17,7 @@ pnpm i -D @stoplight/prism-cli
 ```
 
 次に、`./openapi.yaml` を書く。
-もちろんexportしたやつを置いてもいいし、http経由でもいい(らしい)。
+もちろん export したやつを置いてもいいし、http 経由でもいい(らしい)。
 
 最後に、`./package.json` の `scripts` に
 
@@ -29,11 +29,11 @@ pnpm i -D @stoplight/prism-cli
   },
 ```
 
-の1行を追加。
+の 1 行を追加。
 
 ## 動かし方
 
-Node.jsのプロジェクトなので、`git clone`したら最初に1回
+Node.js のプロジェクトなので、`git clone`したら最初に 1 回
 
 ```bash
 pnpm audit
@@ -55,17 +55,17 @@ pnpm mock
 curl http://127.0.0.1:4010/api/v1/hello
 ```
 
-で "hello" と帰ってきたらとりあえずOK。
+で "hello" と帰ってきたらとりあえず OK。
 
 ## メモ
 
 ホットリロードが効いてる。
 このレポジトリの場合 `./openapi.yaml` を編集すると
-prismサーバがリロードされる。
+prism サーバがリロードされる。
 
 ## TODO
 
-CORSはどうなってるか調べる。
+CORS はどうなってるか調べる。
 [CORS | Prism](https://docs.stoplight.io/docs/prism/5ee9bb8a1cf2b-cors) によると `*` らしい。
 
 ## 参考
